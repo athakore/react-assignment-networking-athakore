@@ -1,0 +1,41 @@
+.nav-links{
+    width: 30vw;
+    margin-left: 12.5vw;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+.nav-item{
+    margin-right: 15px;
+    height: 31px;
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    height: 100%;
+    transition-property: border-bottom, color;
+    transition-duration: .5s;
+    border: 0px;
+}
+li a:link{
+    color: #555;
+    border-bottom: 2px solid transparent;
+}
+li a:visited{
+    color: #555;
+    border-bottom: 2px solid transparent;
+}
+li a:hover{
+    color: rebeccapurple;
+    border-bottom: 2px solid rebeccapurple;
+}
+li a:active{
+    color: rebeccapurple;
+    border-bottom: 2px solid rebeccapurple;
+}

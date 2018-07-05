@@ -1,0 +1,105 @@
+.dash-left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.user-card{
+    width: 97.5%;
+    height: 250px;
+    margin-right: auto;
+    margin-top: 5px;
+    position: relative;
+    background-color: rebeccapurple;
+}
+.user-pic{
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 71px;
+    height: 71px;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 62.5px;
+    position: absolute;
+}
+.user-stats{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.user-name{
+    width: 250px;
+    height: 50%;
+    margin-left: auto;
+}
+.display-name{
+    margin: 0;
+    display: table;
+    text-align: left;
+}
+.user-tag{
+    margin: 0;
+    display: table;
+    text-align: left;
+    color: #888;
+}
+.stats{
+    height: 50%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.kwits,.kwitting,.kwitters{
+    margin: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.stat-title{
+    margin: 0;
+    margin-bottom: 5%;
+    display: table;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #555;
+}
+.stat-value{
+    display: table;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+.trends{
+    width: 97.5%;
+    height: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: white;
+}
+.trends-content{
+    display: flex;
+    flex-direction: column;
+}
+.trend-value{
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+}
+.trend-value:hover{
+    text-decoration-line: underline
+}
+.trend-num{
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+    color: #555;
+}

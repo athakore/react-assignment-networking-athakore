@@ -1,0 +1,52 @@
+.dash-right{
+    float: right;
+    width: 30%;
+    height: 200vh;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.who-to-follow{
+    width: 97.5%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.who{
+    display: flex;
+    direction: row;
+    justify-content: left;
+}
+.who-name{
+    text-align: left;
+    margin: 0px;
+    margin-right: 2px;
+    width: auto;
+    display: inline-block;
+}
+.who-tag{
+    text-align: left;
+    font-weight: normal;
+    color: #555;
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+}
+.follow{
+    font-weight: bold;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.footer{
+    width: 97.5%;
+    height: 250px;
+    margin-left: auto;
+    margin-top: 5px;
+    background-color: white;
+}

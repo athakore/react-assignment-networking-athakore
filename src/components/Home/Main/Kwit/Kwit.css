@@ -1,0 +1,32 @@
+
+.kwit{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+.kwit-user{
+    display: flex;
+    flex-direction: rows;
+    margin-bottom: 2px;
+}
+.kwit-user-name{
+    text-align: left;
+    margin: 0px;
+    margin-right: 2px;
+    width: auto;
+    display: inline-block;
+}
+.kwit-user-tag{
+    text-align: left;
+    font-weight: normal;
+    color: #555;
+    display: inline;
+    margin: 0px;
+    margin-right: 10px;
+}
+.kwit-message-text{
+    text-align: left;
+    margin:0px;
+}

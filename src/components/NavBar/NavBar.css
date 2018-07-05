@@ -1,0 +1,22 @@
+.nav-bar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #888;
+    background-color: white;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    color: rebeccapurple;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h4 i{
+    text-align: middle;
+    position: relative;
+}
